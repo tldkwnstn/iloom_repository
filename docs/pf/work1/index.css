@@ -80,19 +80,17 @@ html {
 
 .box-5 {
   position: absolute;
-  top:45%;
+  top:30%;
   left:auto;
-  right: -100%;
-  transform: translate(-50%, -50%);
+  right: 38%;
+  z-index: 1;
 }
 
 .box-6 {
   position: absolute;
-  top:45%;
-  left:auto;
-  right: -100%;
-  transform: translate(-50%, -50%);
+  top:43%;
+  left:53%;
+  right: auto;
   position: absolute;
-  top:30%;
-  left: 15%;
+  z-index: 2;
 }

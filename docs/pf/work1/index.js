@@ -22,3 +22,27 @@ gsap.from('.box-3', {
     trigger:'.box-3'
   }
 })
+
+// box-5 : 알고리즘 핸드폰
+gsap.from('.box-5', {
+  ease:Expo.easeIn,
+  opacity:0,
+  x:700,
+  duration:1.2,
+  scrollTrigger:{
+    trigger:'.box-5',
+    markers:true
+  }
+})
+
+// box-6 : 알고리즘 조사창
+gsap.from('.box-6', {
+  ease:Expo.easeIn,
+  opacity:0,
+  x:680,
+  duration:2,
+  scrollTrigger:{
+    trigger:'.box-5',
+    markers:true
+  }
+},)
