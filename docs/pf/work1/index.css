@@ -46,3 +46,19 @@ body {
   right:auto;
   margin-top: -900px;
 }
+
+.video-1 {
+  width: 365px;
+  position: absolute;
+  top:50%;
+  left: 48.5%;
+  transform: translate(-50%, -50%);
+  border-radius: 50px;
+}
+
+.video-2 {
+  width: 450px;
+  position: absolute;
+  top:2%;
+  left: 555px;
+}

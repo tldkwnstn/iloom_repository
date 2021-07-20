@@ -1,4 +1,1 @@
-gsap.fromTo('.box-1', {
-  x:300,
-  duration:3,
-}, 2)
+gsap.to(".img1", { x: 300 });
