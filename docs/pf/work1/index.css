@@ -46,6 +46,12 @@ body {
   margin-top: -900px;
 }
 
+.box-2 {
+  position: absolute;
+  top:55%;
+  left:9%;
+}
+
 .video-1 {
   width: 365px;
   position: absolute;
