@@ -1,8 +1,8 @@
-gsap.to(".img1", {
-  x: 300
-});
+// box-1 : 개요 아이템
+gsap.to(".box-1", { x: 700 });
 
-gsap.from(".section-2 > div:last-child > img", {
+// box-2 : 개요 아이템
+gsap.from(".box-2", {
   ease: Expo.easeIn,
   opacity: 0,
   x: -300,
@@ -11,16 +11,14 @@ gsap.from(".section-2 > div:last-child > img", {
     trigger: '.section-2'
   }
 });
-gsap.to(".box-1", { x: 300 });
 
-
-// img-3 : 로고 아이템
-gsap.from('.img-3', {
+// box-3 : 로고 아이템
+gsap.from('.box-3', {
   ease:Expo.easeIn,
   opacity:0,
-  y:400,
-  duration:2,
+  y:300,
+  duration:1,
   scrollTrigger:{
-    trigger:'.section-3'
+    trigger:'.box-3'
   }
 })
