@@ -39,12 +39,17 @@ body {
 
 
 .box-1 {
-  background-color: red;
   display: inline-block;
   position: absolute;
   left:-500px;
   right:auto;
   margin-top: -900px;
+}
+
+.box-2 {
+  position: absolute;
+  top:55%;
+  left:9%;
 }
 
 .video-1 {
