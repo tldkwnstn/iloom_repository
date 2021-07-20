@@ -78,6 +78,15 @@ html {
   transform: translateY(-50%);
 }
 
+.box-4{
+  width:1700px;
+  height:1200px;
+  position:absolute;
+  top:17%;
+  left:4%;
+  transform: translet(-50%,-50%);
+}
+
 .box-5 {
   position: absolute;
   top:30%;
