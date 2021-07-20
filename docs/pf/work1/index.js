@@ -19,14 +19,12 @@ gsap.from('.box-3', {
   y:300,
   duration:1,
   scrollTrigger:{
-    trigger:'.box-3'
+    trigger:'.section-3'
   }
 });
 
 // box-4 : 와이어프레임 아이템
-gsap.to(".box-1", { x: 300 });
-gsap.from(".section-5 > .box-4 > img",{
-
+gsap.from(".box-4", {
 opacity:0,
 x:700,
 duration:1,
