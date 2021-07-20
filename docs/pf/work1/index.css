@@ -33,20 +33,14 @@ body {
 
 
 /* 커스텀 */
+html {
+  overflow-x: hidden;
+}
 .section {
   width:calc(1920px - 16px);
 }
 
-
-.box-1 {
-  background-color: red;
-  display: inline-block;
-  position: absolute;
-  left:-500px;
-  right:auto;
-  margin-top: -900px;
-}
-
+/* 비디오 아이템 */
 .video-1 {
   width: 365px;
   position: absolute;
@@ -63,6 +57,27 @@ body {
   left: 600px;
 }
 
+/* 이미지 아이템 */
+.box-1 {
+  position: absolute;
+  left:-500px;
+  right:auto;
+  margin-top: -900px;
+}
+
+.box-2 {
+  position: absolute;
+  top:55%;
+  left:9%;
+}
+
+.box-3 {
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  transform: translateY(-50%);
+}
+
 .box-4{
   width:1700px;
   height:1200px;
@@ -70,5 +85,23 @@ body {
   top:17%;
   left:4%;
   transform: translet(-50%,-50%);
-  
+}
+
+.box-5 {
+  position: absolute;
+  top:45%;
+  left:auto;
+  right: -100%;
+  transform: translate(-50%, -50%);
+}
+
+.box-6 {
+  position: absolute;
+  top:45%;
+  left:auto;
+  right: -100%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top:30%;
+  left: 15%;
 }
