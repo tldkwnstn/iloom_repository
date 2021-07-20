@@ -59,5 +59,12 @@ body {
   width: 450px;
   position: absolute;
   top:2%;
+  left: 555px;
+}
+
+.img-3 {
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
   left: 600px;
 }
