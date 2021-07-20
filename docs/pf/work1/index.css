@@ -82,7 +82,7 @@ html {
   position: absolute;
   top:45%;
   left:auto;
-  right: 0;
+  right: -100%;
   transform: translate(-50%, -50%);
 }
 
@@ -90,7 +90,7 @@ html {
   position: absolute;
   top:45%;
   left:auto;
-  right: 0;
+  right: -100%;
   transform: translate(-50%, -50%);
   position: absolute;
   top:30%;
