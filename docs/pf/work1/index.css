@@ -39,7 +39,6 @@ body {
 
 
 .box-1 {
-  display: inline-block;
   position: absolute;
   left:-500px;
   right:auto;
@@ -67,4 +66,20 @@ body {
   left: 50%;
   transform: translateX(-50%);
   left: 600px;
+}
+
+.box-5 {
+  position: absolute;
+  top:45%;
+  left:auto;
+  right: 0;
+  transform: translate(-50%, -50%);
+}
+
+.box-6 {
+  position: absolute;
+  top:45%;
+  left:auto;
+  right: 0;
+  transform: translate(-50%, -50%);
 }
