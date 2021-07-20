@@ -67,7 +67,7 @@ html {
 
 .box-2 {
   position: absolute;
-  top:55%;
+  top:60%;
   left:9%;
 }
 
@@ -83,7 +83,7 @@ html {
   height:1200px;
   position:absolute;
   top:17%;
-  left:4%;
+  left:5%;
   transform: translet(-50%,-50%);
 }
 

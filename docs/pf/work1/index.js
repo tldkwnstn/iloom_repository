@@ -20,9 +20,11 @@ gsap.from('.box-3', {
   ease:Expo.easeIn,
   opacity:0,
   y:400,
-  duration:2,
+  duration:1,
   scrollTrigger:{
-    trigger:'.section-3'
+    trigger:'.box-3',
+    markers:true,
+    start:'-30%, 87%'
   }
 });
 
@@ -33,7 +35,6 @@ gsap.from(".box-4", {
   duration:2,
   scrollTrigger:{
     trigger:'.section-5',
-    markers:true
   }
 });
 
@@ -42,10 +43,9 @@ gsap.from('.box-5', {
   ease:Expo.easeIn,
   opacity:0,
   x:700,
-  duration:1.2,
+  duration:1.5,
   scrollTrigger:{
     trigger:'.box-5',
-    markers:true
   }
 });
 
@@ -54,9 +54,8 @@ gsap.from('.box-6', {
   ease:Expo.easeIn,
   opacity:0,
   x:680,
-  duration:1.3,
+  duration:2,
   scrollTrigger:{
-    trigger:'.box-5',
-    markers:true
+    trigger:'.box-5'
   }
 });
