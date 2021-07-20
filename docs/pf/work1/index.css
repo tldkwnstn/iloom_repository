@@ -60,12 +60,12 @@ body {
   width: 450px;
   position: absolute;
   top:2%;
-  left: 555px;
+  left: 600px;
 }
 
 .img-3 {
-  top: 50%;
+  position: absolute;
+  top:60%;
   left: 50%;
-  transform: translateX(-50%);
-  left: 600px;
+  transform: translate(-50%, -50%);
 }
